@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Waifu_Forms</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav>
+        <ul class= "container">
+          <li> <a href="#">Форма регістрації</a></li>
+          <li> <a href="#">Форма входу</a></li>
+          <li> <a href="#">Форма зворотнього зв'язку</a></li>
+        </ul>
+    </nav>
+
+      <h1>"Форум любителів Кенші"</h1>
+
+      <p>
+        <center>
+      <form>
+        <h2>Форма регістрації</h2>
+        <fieldset>
+            <legend>Обов'язково*</legend>
+        <p class="p1">Ім'я:<br></p>
+        <input type="text" name="firstname" value="Kenshi">
+        <br>
+      <p class="p1">Прізвище:<br></p>
+        <input type="text" name="lastname" value="Takahashi">
+        <br><br>
+        <p class="p1">Оберіть стать:<br></p>
+        <p>
+            <input type='radio' name='gender' id='female' value='female'>
+            <label for='female'>Жіноча</label><br>
+            <input type='radio' name='gender' id='male' value='male' checked>
+            <label for='male'>Чоловіча</label><br>
+            <input type='radio' name='gender' id='other' value='other'>
+            <label for='other'>Інше</label>
+        </p>
+    </fieldset>
+
+        <p class="p1">Країна проживання:<br></p>
+        <select id="country" name="country">
+            <option value="au">Ukraine</option>
+            <option value="au">Australia</option>
+            <option value="ca">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">Uganda</option>
+            <option value="usa">Japan</option>
+        </select>
+
+        <p class="p1">Номер телефону:<br></p>
+        <input type="text" name="lastname" value="+3807777777">
+
+        <p class="p1">Соцмережа:<br></p>
+        <input type="text" name="lastname" value="*тут має бути ваше посилання*">
+
+        <p class="p1">Електронна пошта:<br></p>
+        <input type="text" name="lastname" value="keshi@maryme.com">
+        
+        <fieldset>
+            <legend>Обов'язково*</legend>
+        <p class="p1">Пароль:<br></p>
+        <input type="text" name="lastname" value="............">
+        </fieldset>
+
+        <p><button type="button" onclick="alert('Thanks for your answers!')">Готово</button></p>
+      </form>
+
+      </p>
+    
+      <form>
+        <h2>Форма входу</h2>
+        <p class="p1">Ім'я:<br></p>
+        <input list="Names">
+        <datalist id="Names">
+          <option value="Kenshi">
+          <option value="Ken">
+          <option value="NotKenfromBarbie">
+          <option value="KenFromMK">
+          <option value="BlindButNotBlind">
+        </datalist>
+        <p class="p1">Пароль:<br></p>
+        <input type="text" name="lastname" value="............">
+        <p><button type="button" onclick="alert('Thanks for your answers!')">Готово</button></p>
+      </form>
+      
+      <form>
+        <h2>Форма зворотнього зв'язку</h2>
+        <p class="p1">Ім'я:<br></p>
+        <input list="Names">
+        <datalist id="Names">
+          <option value="Mykola">
+          <option value="Kolia">
+          <option value="Kolienka">
+          <option value="Kolian">
+          <option value="Koliuchka">
+        </datalist>
+
+        <p class="p1">Електронна пошта:<br></p>
+        <input type="text" name="lastname" value="keshi@maryme.com">
+        <p>
+        <textarea name="message" rows="15" cols="80">
+            Text about your questions. . .
+        </textarea>
+        </p>
+        <p><button type="button" onclick="alert('Thanks for your answers!')">Готово</button></p>
+      </form>
+
+    </center>
+</body>
+
+<footer> 
+    <table style="width:100%; text-align: center;">
+        <tr>
+          <th colspan="4">Контакти </th>
+        </tr>
+
+        <tr>
+          <td>Copyright © 2023</td>
+          <td>mob: +3807777777</td>
+          <td>email: keshi@maryme.com</td>
+          <td>discord: kenshitakahashi</td>
+        </tr>
+</footer>
+
+</html>

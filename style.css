@@ -1,0 +1,154 @@
+body
+{
+  background: rgb(59, 29, 27);
+  background: linear-gradient(0deg, rgb(22, 5, 5) 0%, rgb(54, 19, 19) 100%);
+}
+nav 
+{
+    min-height: 32px;
+    height: 75px;
+}
+nav a 
+{
+    display: block;
+    color: #b18d2b;
+    line-height: 2em;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.container 
+{
+    display: flex;
+    border:1px solid rgb(167, 134, 45);
+    background-color: #270303;
+    height: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+h1
+{
+  color: #b18d2b;
+  text-align: center;
+  background-color: #250402;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  font-size: 40px;
+  border:1px solid rgb(167, 134, 45);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text 
+{
+  font-size: 30px; /* Змінюємо розмір тексту на 16 пікселів */
+}
+
+input[type=text] 
+{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+.p1
+{
+    color: #b18d2b;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #e74545;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+form
+{
+    background-color: #250402;
+    width: 50%;
+    border: 2px solid rgb(167, 134, 45);
+    border-radius: 4px;
+}
+input[type='radio'] + label 
+{
+    font-size: 20px; 
+    color: #b18d2b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+select 
+{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+button
+{
+    background-color: #ad2222;
+    border: none;
+    color: #d8af3d;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+legend
+{
+    font-size: 30px; 
+    color: #b18d2b;
+    border: 2px solid rgb(167, 134, 45);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[list="Names"] 
+{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+h2
+{
+  color: #b18d2b;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+textarea
+{
+    width: 80%;
+    
+}
+footer 
+{ 
+    display: block;
+}
+table
+{
+  color: #b18d2b;
+  background-color: #000000;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
